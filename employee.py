@@ -1,9 +1,9 @@
-def employee_details(name, emp_id, department, salary):
+def employee_details(name,emp_id,department,salary):
     result = (
         f"name:{name}\n"
-        f"Employee:{emp_id}\n"
-        f"Department:{department}\n"
-        f"Salary:{salary}"
+        f"emp_id:{emp_id}\n"
+        f"department:{department}\n"
+        f"salary:{salary}"
     )
     return result
 
